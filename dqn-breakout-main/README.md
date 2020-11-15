@@ -1,9 +1,3 @@
-DQN for Breakout
-================
-
-This project is modified from https://github.com/wetliu/dqn_pytorch based on my
-opinionated styles of coding.
-
-And here are some pre-trained weights that you can play with:
-- [model_weights_a](https://github.com/lukeluocn/dqn-breakout/releases/download/v0.0.0/model_weights_a)
-- [model_weights_b](https://github.com/lukeluocn/dqn-breakout/releases/download/v0.0.0/model_weights_b)
+* 运行main.py文件开始训练模型，使用原来的代码训练的模型保存在original_models文件夹下，使用修改后的Dueling DQN代码训练的模型保存在Dueling_models文件夹下。
+* 选择训练好的模型文件，运行display.ipynb，可以生成视频展示模型进行游戏的效果。
+* 使用原来代码进行模型训练的收益保存在original_rewards.txt中，使用修改后代码进行模型训练的收益保存在Dueling_rewards.txt中。
